@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="473.0" prefWidth="491.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.task5.HelloController">
+    <children>
+        <VBox fx:id="vb" minHeight="300.0" minWidth="300.0" prefHeight="300.0" prefWidth="300.0">
+            <VBox.margin>
+                <Insets bottom="15.0" />
+            </VBox.margin>
+         <children>
+            <Pane prefHeight="400.0" prefWidth="400.0" />
+         </children>
+        </VBox>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0">
+            <children>
+                <Button fx:id="happy" layoutX="22.0" layoutY="15.0" mnemonicParsing="false" onAction="#Happy" prefHeight="30.0" prefWidth="104.0" text="Весёлый" />
+                <Button fx:id="angry" layoutX="346.0" layoutY="15.0" mnemonicParsing="false" onAction="#Angry" prefHeight="30.0" prefWidth="98.0" text="Злой" />
+                <Button fx:id="sad" layoutX="193.0" layoutY="15.0" mnemonicParsing="false" onAction="#Sad" prefHeight="30.0" prefWidth="99.0" text="Грустный" />
+                <Button fx:id="clear" layoutX="189.0" layoutY="79.0" mnemonicParsing="false" onAction="#Clear" prefHeight="31.0" prefWidth="108.0" text="Очистить" />
+            </children>
+        </AnchorPane>
+
+    </children>
+</VBox>
